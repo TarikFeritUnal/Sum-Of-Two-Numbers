@@ -11,8 +11,13 @@ public class Main {
         System.out.println("Sum of two numbers: " + sumOfTwoNumbers(n, m));
     }
 
-    public static int sumOfTwoNumbers(int n, int m) {
+    public static int sumOfTwoNumbers(int n, int m){
         int sum = n + m;
         return sum;
+    }
+
+    public static int diffOfTwoNumbers(int n, int m){
+        int diff = n + m;
+        return diff;
     }
 }
