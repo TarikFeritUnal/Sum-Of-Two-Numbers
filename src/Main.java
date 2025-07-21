@@ -17,7 +17,7 @@ public class Main {
     }
 
     public static int diffOfTwoNumbers(int n, int m){
-        int diff = n + m;
+        int diff = n - m;
         return diff;
     }
 }
